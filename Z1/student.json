@@ -1,0 +1,18 @@
+{
+	"id": "wD21e0",
+	"ime": "Milan",
+	"prezime": "Jovanović",
+	"smer": "Softversko inženjerstvo",
+	"predmet": [
+        "Programiranje",
+        "Fizika",
+        "Matematika",
+        "Engleski jezik"
+    ],
+	"prosek": 8.8,
+	"kontakt": {
+	   "adresa": "Resavska 46",
+	   "mesto": "Beograd",
+	   "telefon": "0646431234"
+    }
+}

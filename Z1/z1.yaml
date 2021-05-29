@@ -1,0 +1,12 @@
+apiVersion: v1.0
+kind: Job
+metadata:
+  name: getpantry-job
+spec:
+  ttlSecondsAfterFinished: 0 # oslobadjanje resursa nakon izvrsavanja Job-a
+  template:
+    spec:
+      containers:
+      - name: getPantry
+        image: z1_custom
+      restartPolicy: Never
